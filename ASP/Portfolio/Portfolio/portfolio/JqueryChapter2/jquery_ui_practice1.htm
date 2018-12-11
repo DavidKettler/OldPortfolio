@@ -1,0 +1,128 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lutes Video Game Store</title>
+    <link href="jquery-ui.css" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper{
+            width: 900px;
+            min-height: 600px;
+            background: beige;
+            margin: 0 auto;
+        }
+
+        header{
+            width: 900px;
+            min-height: 100px;
+            background: beige;
+            margin: 0 auto;
+            text-align: center;
+            border-bottom: 2px solid green;
+        }
+
+        header p{
+            font-style: italic;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        header h1{
+            font-size: 240%;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lutes Video Game Store</h1>
+        <p>Guaranteed Best Prices For Every Game But The One You Actually Want!</p>
+    </header>
+    <div id="wrapper">
+        <div id="accordion">
+            <h3>Best Game Selection</h3>
+            <div>Here at Lutes Video Game Store, we have the best selection of video games 
+            that just can't be beat. You will always find what you are looking for as long as 
+            it's something that we actually have and if you want it, we probably don't have it!</div>
+            <h3>Friendliest Staff</h3>
+            <div>At Lutes Video Game Store, you can be assured that we have the friendliest staff 
+            available to assist you in making a purchasing decision. Our non-friendly staff only work
+            on days that end in y, but every other day, you will receive top quality care from the friendliest 
+            staff in the industry!</div>
+            <h3>Great Hours!</h3>
+            <div>Lutes Video Game Store is open all hours except the times when you actually want to shop. Stop in
+            anytime night or day!</div>
+        </div><!--End accordion-->
+        <div id="tabs">
+            <ul>
+                <li><a href="#cravestation">Cravestation</a></li>
+                <li><a href="#bingebox">Bingebox</a></li>
+                <li><a href="#Wa">Wa</a></li>
+            </ul>       
+            <div id="cravestation">
+                <h2>Cravestation</h2>
+                <p>The brand-new Cravestation is the next best thing in gaming consoles. Build helicopters, design cars, 
+                    solve real-world dilemmas, and help little old ladies cross the street in the new "Grand Do Something Good With Your Life V"
+                </p>
+            </div><!--End cravestation-->
+            <div id="bingebox">
+                <h2>Bingebox</h2>
+                <p>The brand-new Bingebox is the second best thing in gaming consoles. The best selling game 'Mortal Wombat' scores high with fans 
+                    with new arenas and missions in which highest points are awarded for helping your opponent overcome some personal life challenge. 
+                    The new finishing moves have been added which allow you to finish helping your opponent by offering some words of wisdom, or you 
+                    can now use the new 'Spirit Lifter' and say something really nice about them.
+                </p>
+            </div><!--End bingebox-->
+            <div id="Wa">
+                <h2>Wa</h2>
+                <p>The new Wa has recently come out with it's very own "Fabio Galaxy" and "Fabio's World 4" in which the princess is once again in 
+                    trouble and you play as Super Fabio who is ready to take on the world to save the princess. Unfortunately Fabio lost a leg when he 
+                    tripped over an ill-placed sewer drain in "Fabios World 3" and despite best attempts, the leg was never recovered. There is hope 
+                    though as rumor has it that a half-crazed turtle was recently seen carrying Fabio's leg from world 1 to world 2 and there seems to 
+                    be some buzz that Fabio's leg may return in "Fabio's World 5".
+                </p>
+                <input type="checkbox" id="moreInfoBtn" name="moreInfoBtn" />
+                <label for="moreInfoBtn">More Information</label>
+            </div><!--End Wa-->
+         </div><!--End tabs-->
+    </div>
+    <p id="displayMessage">No need to shop anywhere else! Lutes Video Game Store will always carry the lowest price 
+    on everything in the store except the item that you actually want!</p>
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>    
+    $('#displayMessage').dialog({
+        autoOpen: true,
+        show:{
+            effect: "fade",
+            duration: 1000
+        },
+        hide:{
+            effect: "blind",
+            duration: 500
+        }
+    });
+    
+    $("#accordion").accordion();
+    
+    $("#tabs").tabs();
+    
+    $("#moreInfoBtn").button({
+        icons: {
+            primary: 'ui-icon-info'
+        },
+        text: true
+    });
+</script>
+    
+</body>
+</html>

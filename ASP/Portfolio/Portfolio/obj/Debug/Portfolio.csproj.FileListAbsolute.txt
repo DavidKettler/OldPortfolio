@@ -1,0 +1,66 @@
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\ApplicationInsights.config
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\csc.exe
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\vbc.exe
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.dll.config
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.pdb
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Web.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Web.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+C:\Users\David Kettler\Desktop\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\ApplicationInsights.config
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\csc.exe
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\System.Collections.Immutable.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\System.Reflection.Metadata.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\vbc.exe
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\roslyn\VBCSCompiler.exe.config
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.dll.config
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Portfolio.pdb
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Agent.Intercept.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Web.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.DependencyCollector.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.Web.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.AI.WindowsServer.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.ApplicationInsights.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+G:\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.dll
+G:\school\Portfolio\ASP\Portfolio\Portfolio\obj\Debug\Portfolio.pdb

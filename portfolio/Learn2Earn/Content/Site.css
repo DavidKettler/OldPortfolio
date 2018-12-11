@@ -1,0 +1,74 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #7F7F7f;
+    color: #0A0909;
+    font-size: 18px;
+	line-height: 150%;
+    -webkit-font-smoothing: antialiased;
+	/*-moz-osx-font-smoothing: grayscale;*/
+	text-rendering: optimizeLegibility;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"],
+input[type="date"],
+input[type="number"] {
+ 
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    padding-top: 25px;
+}
+
+ul a {
+    font-size: 17px;
+}
+
+.row .col-md-6 {
+    border: groove #7F7F7f 2px;
+    background-color: white;
+    height: 570px;
+    border-radius: 5px;
+}
+.gotobottom {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    text-align: center;
+}

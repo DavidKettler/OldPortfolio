@@ -1,0 +1,199 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        #row1_wrap{
+            width: 1000px;
+            height: 110px;            
+        }
+        
+        #row2_wrap{
+            width: 1000px;
+            height: 110px;
+        }
+        
+        #main_wrap{
+            width: 1000px;
+            min-height: 700px;
+            margin: 0 auto;
+        }
+        
+        .box{
+            width: 100px;
+            height: 100px;            
+        }     
+        
+        #box1{
+            background: blue;
+        }
+        
+        #box2{
+            background: pink;
+        }
+        
+        #box3{
+            background: orange;
+        }
+        
+        #box4{
+            background: red;
+        }
+        
+        #box5{
+            background: green;
+        }
+        
+        .box6{
+            border: 1px solid black;
+            width: 98px;
+            height: 98px;
+        }
+        
+        .black{
+            background: black;
+            border: none;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .box_wrap{
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-right: 5px;
+        }
+        
+        .btn_wrap{
+            width: 100px;
+            height: 30px;
+            float: left;
+            margin-right: 5px;
+        }
+        
+        .btn_wrap input{
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        
+        .block{
+            background: green;
+            width: 200px;
+            height: 1.1em;
+            text-align: center;
+            border: 2px solid orange;
+            margin: 3px;
+            font-size: 14px;
+        }
+        
+        button{
+            font-size: 14px;
+        }
+    
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>   
+</head>
+    <body>
+        <div id="main_wrap">
+            <div id="row1_wrap">
+                <div class="box_wrap">
+                    <div id="box1" class="box"></div>
+                </div>
+                <div class="box_wrap">
+                    <div id="box2" class="box"></div>
+                </div>
+                <div class="box_wrap">
+                    <div id="box3" class="box"></div>
+                </div>
+                <div class="box_wrap">
+                    <div id="box4" class="box"></div>
+                </div>
+                <div class="box_wrap">
+                    <div id="box5" class="box"></div>
+                </div>
+                <div class="box_wrap">
+                    <div id="box6" class="box6"></div>
+                </div>
+            </div><!--End row1_wrap-->
+            <div id="row2_wrap">
+                <div class="btn_wrap">
+                    <input id="btn1" type="button" value="Slide Up" />
+                </div>
+                <div class="btn_wrap">
+                    <input id="btn2" type="button" value="Slide Toggle" />
+                </div>
+                <div class="btn_wrap">
+                    <input id="btn3" type="button" value="Fade Out" />
+                </div>
+                <div class="btn_wrap">
+                    <input id="btn4" type="button" value="Fade Toggle" />
+                </div>
+                <div class="btn_wrap">
+                    <input id="btn5" type="button" value="Hide/Toggle" />
+                </div>
+                <div class="btn_wrap">
+                    <input id="btn6" type="button" value="Add Class" />
+                </div>
+            </div><!--End row2_wrap-->
+            
+            <button id="btn7" >&raquo; Animate Block 1</button>
+            <button id="btn8" >&raquo; Animate Block 2</button>
+            <button id="btn9" >&raquo; Animate Both</button>
+            <button id="btn10" >&raquo; Reset</button>
+            <div id="block1" class="block" >Block 1</div>
+            <div id="block2" class="block" >Block 2</div>
+        </div><!--End main_wrap-->
+    </body>
+    <script>    
+        /*Insert Jquery Here*/
+        $(document).ready(function() {
+            $("#btn1").click(function() {
+              $("#box1").slideUp();
+          });
+            
+            $("#btn2").click(function() {
+                $("#box2").slideToggle();
+            });
+                
+            $("#btn3").click(function() {
+                $("#box3").fadeOut("slow");
+            });
+                
+            $("#btn4").click(function() {
+                $("#box4").fadeToggle("slow");
+            });
+                
+            $("#btn5").click(function() {
+                $("#box5").toggle("slow");
+            });
+                
+            $("#btn6").click(function() {
+                $("#box6").removeClass("box6").addClass("black");
+            });
+            
+            $("#btn7").click(function() {
+                $("#block1")
+                .animate({width: "90%"}, 3000)
+                .animate({fontSize: "24px"}, 1000)
+                .animate({borderLeftWidth: "15px"}, 1000);
+            });
+            
+            $("#btn8").click(function() {
+                $("#block2")
+                .animate({width: "90%"}, 1000)
+                .animate({fontSize: "24px"}, 1000)
+                .animate({borderLeftWidth: "15px"}, 1000);
+            });
+            $("#btn9").click(function() {
+                $("#btn7").add("#btn8").click();
+            });
+            $("#btn10").click(function() {
+                $(".block").css({
+                    width: "",
+                    fontSize: "",
+                    borderWidth: ""
+                });
+            });
+        });
+    </script>
+</html>
